@@ -4,4 +4,4 @@
 
 ## Web 4 link
 
-### https://in-info-web4.informatics.iupui.edu/~aibreich/first-mvc/
+### https://in-info-web4.informatics.iupui.edu/~aibreich/first-MVC/
