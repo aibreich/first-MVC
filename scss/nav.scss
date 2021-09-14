@@ -1,0 +1,23 @@
+// this is the scss page to style the nav elements
+nav {
+  min-height: 50px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  //   me specifically targeting the anchor tags
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+// this is making the nav compress to fit in columns when compressed for the mobile or smaller windowed browsers
+@media (max-width: 1000px) {
+  nav {
+    height: 100vh;
+    flex-direction: column;
+  }
+}

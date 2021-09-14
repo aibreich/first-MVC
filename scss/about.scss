@@ -1,0 +1,77 @@
+// first about section that contains just a few tags
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h1 {
+    font-size: 28px;
+    text-transform: capitalize;
+    position: absolute;
+
+    margin-top: -390px;
+    border-bottom: 2px solid black;
+  }
+  // image with the styling involved with it
+  .about-img-1 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/about-img-1.jpeg);
+    // position: absolute;
+    // margin-top: 200px;
+    // margin-left: 90px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  //   the p tag and its styling used
+  p {
+    max-width: 400px;
+    height: 200;
+    font-size: 18px;
+    // position: absolute;
+    // margin-top: 200px;
+    // margin-left: 515px;
+  }
+}
+// the second about section
+.about-2 {
+  //   h1 for second section
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-size: 28px;
+  }
+  // first image the one on left
+  .about-img-2 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/about-img-2.jpeg);
+
+    margin-top: 50px;
+    margin-left: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  //   second image the one on the right
+  .about-img-3 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/about-img-3.jpeg);
+
+    margin-top: -300px;
+    margin-left: 715px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  p {
+    max-width: 800px;
+    height: 300;
+    font-size: 18px;
+    margin: 40px auto;
+  }
+}

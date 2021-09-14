@@ -1,0 +1,74 @@
+// the div for the contact section where i used the h1 tag to style the main header then split the sides off into seperate parts
+.contact {
+  h1 {
+    font-size: 34px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    width: 180px;
+  }
+  //   this is the main container thats mainly holding the two sides of the content
+  .content-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // this is the left side container holding a h1 tag and multiple p tags which are styled here
+    .left-side {
+      width: 600px;
+      height: 500px;
+
+      h1 {
+        font-size: 26px;
+        margin: 0 auto;
+        width: 380px;
+        text-transform: capitalize;
+      }
+      p {
+        padding-top: 30px;
+        padding-left: 30px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 18px;
+      }
+    }
+    // the right side of the content holding a few p tags with some span tags to color the asterics red
+    .right-side {
+      width: 600px;
+      height: 500px;
+
+      p {
+        padding-top: 20px;
+        font-size: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        span {
+          color: red;
+          font-size: 22px;
+        }
+      }
+      //   these are the imput boxes one being the smaller size for name and email and the 2nd one being for the message they are leaving
+      .con-box-1 {
+        width: 500px;
+        height: 35px;
+      }
+      .con-box-2 {
+        width: 500px;
+        height: 65px;
+      }
+      //   this is the submit or send message button that they can use to submit
+      .sub-box {
+        background-color: lightblue;
+        width: 200px;
+        height: 50px;
+        margin: 40px auto;
+        p {
+          font-size: 18px;
+          text-transform: uppercase;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          margin: 0 auto;
+          width: 123px;
+        }
+      }
+    }
+  }
+}

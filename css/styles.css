@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+section {
+  min-height: calc(100vh - 50px);
+  background-color: white;
+  padding: 30px;
+}
+
+section:nth-child(even) {
+  min-height: calc(100vh - 30vh);
+  background-color: lightgrey;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+nav {
+  min-height: 50px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
+footer {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: lightgrey;
+}
+
+@media (max-width: 1000px) {
+  footer {
+    height: 50vh;
+    flex-direction: column;
+  }
+}
+.home {
+  display: flex;
+}
+.home h1 {
+  font-size: 28px;
+  text-transform: capitalize;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 140px;
+  border-bottom: 2px solid black;
+}
+.home .home-text {
+  max-width: 400px;
+  height: 200;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.home .home-img {
+  width: 450px;
+  height: 300px;
+  background-image: url(../images/home-img-1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 700px;
+}
+
+.home-2 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+.home-2 p {
+  max-width: 800px;
+  height: 300;
+  font-size: 18px;
+  margin: 40px auto;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about h1 {
+  font-size: 28px;
+  text-transform: capitalize;
+  position: absolute;
+  margin-top: -390px;
+  border-bottom: 2px solid black;
+}
+.about .about-img-1 {
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/about-img-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about p {
+  max-width: 400px;
+  height: 200;
+  font-size: 18px;
+}
+
+.about-2 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+.about-2 .about-img-2 {
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/about-img-2.jpeg);
+  margin-top: 50px;
+  margin-left: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-2 .about-img-3 {
+  width: 400px;
+  height: 300px;
+  background-image: url(../images/about-img-3.jpeg);
+  margin-top: -300px;
+  margin-left: 715px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-2 p {
+  max-width: 800px;
+  height: 300;
+  font-size: 18px;
+  margin: 40px auto;
+}
+
+.help {
+  background-image: linear-gradient(to left, rgba(178, 190, 181, 0.5), rgba(178, 190, 181, 0.5)), url(../images/help-hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.help h1 {
+  margin: 80px auto;
+  font-size: 34px;
+  width: 450px;
+  height: 40px;
+  text-transform: capitalize;
+}
+.help .inp-box {
+  width: 700px;
+  height: 35px;
+  margin: 50px auto 0 325px;
+}
+
+.help-2 h1 {
+  font-size: 28px;
+  width: 300px;
+  height: 40px;
+  text-transform: capitalize;
+}
+.help-2 .fq-boxholder {
+  max-width: 1400px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.help-2 .fq-boxholder .box {
+  margin-top: 90px;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  text-decoration: none;
+}
+.help-2 .fq-boxholder .box .box-text {
+  width: 100px;
+  height: 25px;
+  color: grey;
+  font-size: 20px;
+  margin: 15px auto;
+  border-bottom: 2px solid grey;
+}
+.help-2 .fq-boxholder .box .box-text-2 {
+  width: 200px;
+  height: 25px;
+  color: grey;
+  font-size: 20px;
+  margin: 15px auto;
+  border-bottom: 2px solid grey;
+  text-decoration: none;
+}
+
+.box--img-1 {
+  background-image: url(../images/event-1-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box--img-2 {
+  background-image: url(../images/event-2-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box--img-3 {
+  background-image: url(../images/event-3-img.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box--img-4 {
+  background-image: url(../images/trbl-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact h1 {
+  font-size: 34px;
+  margin: 0 auto;
+  text-transform: capitalize;
+  width: 180px;
+}
+.contact .content-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact .content-holder .left-side {
+  width: 600px;
+  height: 500px;
+}
+.contact .content-holder .left-side h1 {
+  font-size: 26px;
+  margin: 0 auto;
+  width: 380px;
+  text-transform: capitalize;
+}
+.contact .content-holder .left-side p {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.contact .content-holder .right-side {
+  width: 600px;
+  height: 500px;
+}
+.contact .content-holder .right-side p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact .content-holder .right-side p span {
+  color: red;
+  font-size: 22px;
+}
+.contact .content-holder .right-side .con-box-1 {
+  width: 500px;
+  height: 35px;
+}
+.contact .content-holder .right-side .con-box-2 {
+  width: 500px;
+  height: 65px;
+}
+.contact .content-holder .right-side .sub-box {
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  margin: 40px auto;
+}
+.contact .content-holder .right-side .sub-box p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 auto;
+  width: 123px;
+}

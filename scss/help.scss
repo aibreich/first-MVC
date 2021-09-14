@@ -1,0 +1,96 @@
+// this is the help div in which i put the background image across the whole thing with a linear gradient
+.help {
+  background-image: linear-gradient(
+      to left,
+      rgba(178, 190, 181, 0.5),
+      rgba(178, 190, 181, 0.5)
+    ),
+    url(../images/help-hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h1 {
+    margin: 80px auto;
+    font-size: 34px;
+    width: 450px;
+    height: 40px;
+    text-transform: capitalize;
+  }
+  //   this is the input box which is used to search the site
+  .inp-box {
+    width: 700px;
+    height: 35px;
+    margin: 50px auto 0 325px;
+  }
+}
+// this is the second help section on the site holding frequently asked questions
+.help-2 {
+  h1 {
+    font-size: 28px;
+    width: 300px;
+    height: 40px;
+    text-transform: capitalize;
+  }
+  //   the main holder for the boxes
+  .fq-boxholder {
+    max-width: 1400px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // the boxes used to hold the text and logos on the site
+    .box {
+      margin-top: 90px;
+      width: 250px;
+      height: 250px;
+      background-color: black;
+      text-decoration: none;
+// the text used withing the box 
+      .box-text {
+        width: 100px;
+        height: 25px;
+        color: grey;
+        font-size: 20px;
+        margin: 15px auto;
+        border-bottom: 2px solid grey;
+      }
+    //   this is the second type of text used for troubleshooting since it is a longer word
+      .box-text-2 {
+        width: 200px;
+        height: 25px;
+        color: grey;
+        font-size: 20px;
+        margin: 15px auto;
+        border-bottom: 2px solid grey;
+        text-decoration: none;
+      }
+    }
+  }
+}
+// this is the bem styling which is used to easily place the photos in after building what to look at on the site
+.box--img-1 {
+  background-image: url(../images/event-1-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box--img-2 {
+  background-image: url(../images/event-2-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box--img-3 {
+  background-image: url(../images/event-3-img.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box--img-4 {
+  background-image: url(../images/trbl-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

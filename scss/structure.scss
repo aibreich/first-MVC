@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+// using the section to hard set what each one of the sections will be referring to what todd showed us a couple of weeeks ago.
+
+section {
+  min-height: calc(100vh - 50px);
+  background-color: white;
+  padding: 30px;
+}
+
+section:nth-child(even) {
+  min-height: calc(100vh - 30vh);
+  background-color: lightgrey;
+}
+// made a class called margin to auto center some things
+.margin {
+  margin: 0 auto;
+}

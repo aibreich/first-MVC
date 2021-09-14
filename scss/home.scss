@@ -1,0 +1,58 @@
+// the main section for the home area
+.home {
+  display: flex;
+  h1 {
+    font-size: 28px;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 140px;
+    border-bottom: 2px solid black;
+  }
+  // the text used for the home paragraph
+  .home-text {
+    max-width: 400px;
+    height: 200;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+  // the home image to the right
+  .home-img {
+    width: 450px;
+    height: 300px;
+    background-image: url(../images/home-img-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 700px;
+  }
+}
+// the second home section inwhich i am styling the elements
+.home-2 {
+  // not much cray stuff happening here just styling the header tag and the p tag to make everything nice and uniform
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-size: 28px;
+  }
+
+  p {
+    max-width: 800px;
+    height: 300;
+    font-size: 18px;
+    margin: 40px auto;
+  }
+}
+// the media syntax to make the home page compress onto its self
+@media (max-width: 1000px) {
+  .home {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
